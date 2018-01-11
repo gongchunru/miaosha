@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 
 @Controller
-@RequestMapping("/demo")
+@RequestMapping("/demo2")
 public class DemoController {
 
     @RequestMapping("/")
