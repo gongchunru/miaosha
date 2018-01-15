@@ -32,6 +32,7 @@ public class UserArgumentResolver implements HandlerMethodArgumentResolver{
         return clazz == MiaoshaUser.class;
     }
 
+    @Override
     public Object resolveArgument(MethodParameter parameter, ModelAndViewContainer mavContainer,
                                   NativeWebRequest webRequest, WebDataBinderFactory binderFactory) throws Exception {
         HttpServletRequest request = webRequest.getNativeRequest(HttpServletRequest.class);
